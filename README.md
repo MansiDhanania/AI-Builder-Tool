@@ -142,4 +142,4 @@ With more time, I would add:
 - `package.json`: Start/check scripts for local run and deployment.
 - `render.yaml`: Example Render deployment configuration.
 - `.env.example`: Environment variable template for Groq.
-- `Mansi_Dhanania_AIBuilder.pdf`: Submission summary PDF with artifact and video placeholders.
+- `Mansi_Dhanania_AIBuilder.pdf`: Submission summary PDF with artifact and video links.
