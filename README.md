@@ -139,9 +139,7 @@ With more time, I would add:
 - `app.js`: Frontend routing, reviewer workflow, live report rendering, and chat interactions.
 - `server.js`: Local backend, sample artifacts, multi-agent pipeline, tool definitions, Groq adapter, and LLM prompts.
 - `candidate_submissions/`: Folder-based candidate artifacts loaded by the backend.
-- `SECURITY_AND_DEPLOYMENT.md`: Key handling, Azure hosting, and private candidate-folder instructions.
 - `package.json`: Start/check scripts for local run and deployment.
 - `render.yaml`: Example Render deployment configuration.
 - `.env.example`: Environment variable template for Groq.
-- `VIDEO_SCRIPT.md`: Three-minute recording script.
-- `Mansi_LastName_AIBuilder.pdf`: Submission summary PDF with artifact and video placeholders.
+- `Mansi_Dhanania_AIBuilder.pdf`: Submission summary PDF with artifact and video placeholders.
