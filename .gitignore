@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+npm-debug.log*
+private_input/
+private_output/
+candidate_submissions/mansi/
+candidate_submissions/private/
+*.log
+*.local.json

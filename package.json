@@ -1,0 +1,14 @@
+{
+  "name": "ai-builder-evidence-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live LLM-backed evidence workbench for AI Builder candidate review using synthetic samples.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,357 @@
+Hello Mansi,
+
+
+
+ 
+
+
+
+Thank you for the momentum you’ve built with us so far!
+
+
+
+ 
+
+
+
+As part of the next stage, we’re inviting you to complete a case study that reflects the type of work our AI Builders lead at KPMG—bringing together structured thinking, applied AI, and practical execution to solve real business problems.
+
+
+
+ 
+
+
+
+ 
+
+
+
+Case Study Overview
+
+Please find the full brief attached. At a high level, you are being asked to design and build a solution that helps evaluate AI Builder candidates, using the job description as your source context. The problem is intentionally open—how you define and approach it is part of what we are assessing.
+
+
+
+ 
+
+
+
+ 
+
+
+
+Key Parameters (Important)
+
+
+
+Timebox: Maximum 3 hours total (including build, write-up, and video)
+
+Tools: Use your own tools, accounts, and AI capabilities
+
+Data: Use only synthetic, public, or sample data (no confidential data)
+
+ 
+
+
+
+ 
+
+
+
+Required Submission
+
+
+
+Artifact
+
+A practical output such as a prototype, workflow, evaluation framework, tool, or clearly defined system
+
+3-minute Video
+
+First 1 minute: Demonstrate what you built
+
+Next 2 minutes: Explain your thinking, approach, tradeoffs, risks, and use of AI
+
+Please ensure your submission is easy to review (e.g., working links, files, README, or instructions as needed).
+
+
+
+ 
+
+
+
+ 
+
+
+
+Submission Timeline
+
+Please submit your completed case study by
+
+
+
+Thursday, June 11 at 8:00 AM ET (We kindly ask that you adhere to the submission deadline, as timelines are aligned to the interview process and may not allow for late submissions.)
+
+
+
+ 
+
+
+
+Submission format: PDF File name: FirstName_LastName_AIBuilder
+
+
+
+ 
+
+
+
+Submission Format (Additional Requirements)
+
+
+
+Please include a link to your 3-minute video (e.g., Google Drive, unlisted YouTube, Loom)
+
+Please include a link to your demo / artifact (e.g., web app, repository, shared files, or hosted prototype)
+
+ 
+
+
+
+Important:
+
+Ensure that all links are fully accessible at the time of submission (no restricted permissions). We will review submissions as received and will not be able to follow up to request access.
+
+
+
+
+
+Submission method: Reply to this email by selecting reply all. Direct questions/submissions to only the following  inbox - CA-FMAIInnovation@kpmg.ca
+
+
+
+ 
+
+
+
+ 
+
+
+
+Assessment Focus
+
+We are primarily evaluating:
+
+
+
+Your ability to translate ambiguity into a clear direction
+
+Evidence of a builder mindset (making something real)
+
+Practicality and usability of your solution
+
+Clarity of assumptions, tradeoffs, and risks
+
+Responsible use of AI (including transparency and judgment)
+
+ 
+
+
+
+ 
+
+
+
+Use of AI
+
+We expect you to use AI tools as part of this exercise. You should be able to clearly articulate how you used AI and which decisions were your own.
+
+
+
+ 
+
+
+
+ 
+
+
+
+The next stage interview will be approximately 60 minutes and will include:
+
+
+
+ 
+
+
+
+A 30-minute behavioral discussion, and
+
+A 30-minute case study deep dive, where you will walk through your submission, present your approach, and respond to questions from the team
+
+ 
+
+
+
+ 
+
+
+
+Important Note
+
+This exercise is intended to evaluate your approach, judgment, and builder mindset. It is not a request to produce a formal hiring asset for immediate or current-cycle use. Nothing submitted as part of this assignment will be used by KPMG for anything other than candidate assessment.
+
+
+
+ 
+
+
+
+Your submission will be used solely to evaluate your application for the AI Builder role. We will not use, repurpose, or build on your work in any way. By submitting your application, you consent to your portfolio and prototypes being reviewed by our internal hiring team and stored securely for the period of the evaluation, after which all application materials will be permanently deleted.
+
+
+
+ 
+
+
+
+We look forward to reviewing your submission.
+
+
+
+ 
+
+
+
+Cheers! And Happy Building!
+
+
+
+
+
+I received that email and brief. The image are my hand-written notes on the job profile and requirements. My plan is to build a tool that would essentially help them evaluate candidates after step-2 in the application (step 1 was candidate submitting resume, optional cover letter and proof of work like github, portfolio, published papers, designs, write-ups etc.), which is this step of building a tool to evaluate the candidate...so essentially, I'm building a tool that evaluates what I'm building right now but also what someone else could develop: be it code, design, text etc., with the 3 minute video and other documents required to be submitted.
+
+
+
+I am an AI engineer, specializing in HCI, so I wanted to build an agentic ai system with tool calling: ai makes decision of calling certain tools depending on the information it has and it's need to get more information...
+
+
+
+chatgpt said: ""...
+
+
+
+I want to build a website that is simpler: page 1 has rectangular flashcards with the various job postings available, clicking on each posting takes us to page-2: that has a list of all candidates that submitted to this job with an evaluate button on the right side of each name so that someone can either evaluate a candidate individually or like in email when we do select all, it will also have an evaluate all button if the recruiter does select all. evaluating either a single candidate or all adds another button to the right of the evaluate button next to the name of the candidates called "view report", which will redirect the user to a new page that shows each candidates "report" for this role.
+
+
+
+in this new page of view report: top will be job name and candidate's name, and then below that the page divides into 2 vertically: left half will have the candidate's resume open to view, annotated/highlighted with skills and tools the candidate stated in the resume that are relevant to this job-->color coded according to a field: technical stack (python, r, sql, cloud, apis, agentic ai etc etc.) in blue, organizational knowledge in orange (knowledge about service lines or internal teams, even if through a different work experience), soft-skills in pink (collaborative, leadership, probelm-solving etc.) (this is done by ai and not a scrapper/ocr because we don't want to match the exact word but instead the underlying skill that the candidate shows, example: someone could say "improved code efficiency by 30%", which is a technical skill and is an inferred thing than an actual thing like python programmer...etc.).
+
+
+
+on the right side of the screen, we have the actual analysis: Evidence Mapping Workspace:
+
+Instead of giving candidates a reductive numerical score or an automated "Hire/Reject" label—which violates KPMG's strict criteria for Responsible AI and Transparency—the right side of your screen should act as an Evidence Mapping Workspace.
+
+
+
+Break the analysis panel into three clean, scannable sections:
+
+
+
+1. The Autonomous Agent Execution Log (The "HCI Visibility" Feed)
+
+Because you want to showcase agentic tool calling, the top of the analysis panel should feature an expandable terminal log. This proves to the recruiter that your AI isn’t just running a basic text summary, but is actively making logic-based routing decisions based on what data is present or missing.
+
+
+
+What the UI displays: A live-updating list of actions:
+
+
+
+🟢 [Agent: Archeologist] called detect_files() -> Detected: Resume, Code, Video Transcript. Cover Letter: Absent.
+
+
+
+🛡️ [Agent: Tech Auditor] called scan_code_for_fallbacks() on main.py -> Identified 0 exception handlers. Flagging system risk.
+
+
+
+📝 [Agent: Synthesizer] called build_interview_script() -> Correlating code omissions with transcript claims.
+
+
+
+2. The Role-Specific Evidence Matrix (No Numerical Scores)
+
+Replace a generic radar chart or scoring bar with a qualitative rubric mapped directly to your handwritten notes and the job description.
+
+
+
+What the UI displays: A clean data table with four columns:
+
+
+
+Dimension: (e.g., Ambiguity to Scope, Workflow Thinking, Responsible AI, Modular Contribution).
+
+
+
+Evidence Status: Uses clear, non-punitive labels: 🟢 Strong Evidence, 🟡 Some Evidence, 🔴 Missing / Unclear, or ⚪ Not Provided (Optional Data).
+
+
+
+Extracted Snippet: The exact quote from the video transcript, README, or code that proved the skill.
+
+
+
+The Why: A short, sentence-long explanation of the AI's reasoning.
+
+
+
+3. The Human-AI Autonomy Boundary Box
+
+To show elite enterprise fluency, include a dedicated, static visual guardrail panel that explicitly reminds the recruiter of the system's operational boundaries.
+
+
+
+What the UI displays: A side-by-side comparison box:
+
+
+
+What the Assistant Did: Extracted engineering evidence, flagged structural vulnerabilities in the candidate's code, and cross-referenced claims.
+
+
+
+What the Human Must Do: Own the final hiring decision, evaluate cultural alignment, and dig into the gaps during the live interview.
+
+
+
+4. The Targeted Interview Question Generator
+
+This bridges the gap between their current review stage and the upcoming 60-minute interview loop. Based on the gaps identified in the Evidence Matrix, the system generates 3 highly contextual questions.
+
+
+
+Example: "The candidate claimed expert-level security knowledge in their video transcript, but the Code Auditor agent found a committed .env file with exposed credentials. Ask the candidate: 'How do you approach secret management and data sovereignty when moving a prototype from the AI Lab into a regulated production environment?'"
+
+
+
+in addition, i want the hr to be able to chat with another llm the bottom of the right had side if they want clarifications about the candidate's submission. The chat box acts as the ultimate handoff mechanism. The AI presents the initial evidence, and the human takes control by asking specific follow-up questions.
+
+
+
+Demonstrates Responsible AI & Transparency: The brief emphasizes "transparency" and "governance". If the HR reviewer asks the chatbot, "Why did the Build Inspector agent flag this candidate's code as low on error handling?", the chatbot can point directly to the code snippet. This eliminates "black-box" anxiety. The Prompt/Context Constraint: You must feed this chatbot the exact text of the candidate's Resume, README, Video Transcript, and Code as its system message.
+
+
+
+The Guardrail: You must explicitly prompt the chatbot never to give a hiring opinion. If HR asks, "Should I hire Mansi?", the AI should respond: "I cannot make hiring decisions. However, looking at Mansi's submission, she demonstrated strong workflow thinking by implementing fallback logic in line 42, which aligns heavily with the job requirements."
+
+
+
+finally, on the right and side again, scrolling to the bottom because the right side will be a scrollable page while left side stays constant with the resume fit exactly to the size of the left half of the page with an option to zoom of course. so on the extreme bottom scrolling of right side of the page, we will have two buttons: 🟢 Recommend for Panel Interview or 🔴 Flag for Additional Clarification
+
+
+
+each page allows users to go back to the previous page or forward of course. also, if the user selected one of the two buttons in the report page: flag or recommend, that color ball will show up in page two (where we had list of all candidates, evaluate button next to each name, view report button next to that, now we have the color ball if the button was clicked for that candidate in page 3, if not, no ball.)
+
+
+
+I want to build my app and I have llama groq free tier for llm calls (i can use llama scout and llama 3.2 etc.), i have microsoft azure student free 100 credits but obviously, i don't want to use up all of it in this project but i want to show that i can use azure etc.)

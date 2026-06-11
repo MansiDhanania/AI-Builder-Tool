@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-builder-evidence-workbench
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node server.js"
+    envVars:
+      - key: GROQ_MODEL
+        value: llama-3.1-8b-instant
+      - key: GROQ_API_KEY
+        sync: false
